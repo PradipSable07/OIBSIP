@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Kaushan+Script&family=Pacifico&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+/* root values for font  
+
+font-family: 'Bungee Shade', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+:root {
+  --main-font: "Source Sans Pro", sans-serif;
+  --heading-1: "Bungee Shade", cursive;
+  --heading-2: "Pacifico", cursive;
+  --list-font:"Kaushan Script", cursive;
+}
+/* normal style  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--main-font);
+  list-style: none;
+}
+/* hero_section */
+.hero_section {
+  background-image: url("../Images/HeroImage.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(218, 218, 218);
+  display: flex;
+  flex-direction: column;
+}
+.hero_section nav {
+  padding: 20px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  height: auto;
+}
+.hero_section nav .nav {
+  margin-top: 15px;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  text-align: center;
+}
+.hero_section nav .nav li a {
+  margin: 30px;
+  padding: 5px;
+  color: #fff;
+}
+.search {
+  height: 20px;
+}
+.hero_section li:hover {
+  color: rgb(95, 79, 15);
+  border: 1px solid rgba(83, 13, 13, 0.767);
+  background-color: rgb(68, 61, 23);
+  border-radius: 4px;
+}
+h1 {
+  font-family: var(--heading-1);
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.herocontent {
+  display: flex;
+  justify-content: center;
+}
+.logo1 {
+  max-width: 25%;
+  height: auto;
+}
+/* reservation_container */
+.reservation_container {
+  /* height: 800px; */
+  background-color: rgb(56, 11, 11);
+  display: flex;
+  padding: 100px 50px ;
+  justify-content: space-between;
+}
+.reservation_container h2 {
+  font-family: var(--heading-2);
+  text-align: center;
+  padding: 25px 0px;
+  color: rgb(92, 68, 37);
+}
+.menu_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(117, 47, 184);
+}
+.menu_list li {
+  font-family: var(--list-font);
+
+}
+.reservation_container .drink_div .menu_list .sub_menu{
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  font-family: var(--list-font);
+  color: rgb(110, 106, 99);
+}
+.reservation_container .fast_food_div .menu_list .sub_menu{
+  font-size: 20px;
+  font-family: var(--list-font);
+  color: rgb(110, 106, 99);
+}
+.reservation_container .sweet_div .menu_list .sub_menu{
+  font-size: 20px;
+  font-family: var(--list-font);
+  color: rgb(110, 106, 99);
+}
+
+/* footer container*/
+footer {
+  height: 50px;
+  width: 100%;
+  /* margin: 0px 0px 0px 0px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(197, 129, 129, 0.89);
+}
+.media-icons {
+  border: 1px;
+  height: auto;
+  width: 220px;
+  text-align: center;
+}
+.media-icons a {
+  font-size: 20px;
+  margin-left: 40px;
+}

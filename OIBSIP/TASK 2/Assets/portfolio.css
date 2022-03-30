@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+/* .top-container */
+.top-container h2 {
+  margin: 20px;
+}
+h1 {
+  font-size: 10vh;
+  color: #798f8f;
+  margin: 50px auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+}
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  color: #611717;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+}
+/* hero page  */
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+.mountain-img {
+  margin-bottom: -10px;
+}
+/* middle container  */
+.profile {
+  padding: 150px 0px;
+  background-color: #f4fcd9;
+}
+.profile h2 {
+  margin: 10px auto 10px auto;
+  padding: 50px 0px;
+}
+.profile .imageProfile {
+  border-radius: 50%;
+  max-width: 250px;
+  border: 1.5px solid goldenrod;
+  max-height: auto;
+  margin: 10px auto 10px auto;
+}
+.profile p {
+  
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+}
+.three-dots {
+  border: 5px dashed rgba(89, 54, 90, 0.986);
+  border-bottom: none;
+  background-color: #c5d8a4;
+}
+/* skills */
+.skills {
+  padding: 100px 100px;
+  background-color: #c5d8a4;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.pythonimage {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+.Htmlimgae {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* Get In Touch Section*/
+.contact-me {
+  padding: 150px 120px;
+  background-color: #bb9981;
+}
+.contact-me h2 {
+  padding: 40px 0;
+}
+.contact-me h3 {
+  padding: 5px;
+}
+.contact-me a {
+  letter-spacing: 2px;
+}
+.contact-me .btn {
+  border: 1px gradient;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-decoration: none;
+  color: azure;
+  background-color: #406da8;
+}
+.contact-me .btn:hover {
+  background-color: #315372;
+}
+/* footer */
+footer .bottom-container {
+
+  background-color: #534340;
+  color:#c7d0da;
+}
+footer .bottom-container .footer-link{
+  text-decoration: none;
+  margin: 0 5px;
+  color: #e4f9f5;
+}
+footer .bottom-container .footer-link:hover{
+  color: #bb9981;
+}
+
