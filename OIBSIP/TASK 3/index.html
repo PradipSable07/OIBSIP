@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Temperature </title>
+</head>
+
+<body>
+    <b>
+        <div class="heading">Temperature Converter</div>
+    </b>
+    <form action="" id="form">
+        <div class="main-container">
+            <div class="input-box1">
+                <h3 class="from">From</h3>
+                <select name="from" id="from" required>
+                    <option value="" disabled selected> None</option>
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+                <input type="number" id="fromDegrees" placeholder="value" required>
+            </div>
+            <div class="input-box2">
+                <h3 class="to">To</h3>
+                <select name="to" id="to" required>
+                    <option value="" disabled selected> None</option>
+                    <option value="Celsius">Celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+                <input type="number" id="toDegrees" placeholder="value" required>
+            </div>
+    </form>
+
+    </div>
+    <script src="temperature.js"></script>
+
+</body>
+
+</html>
